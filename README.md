@@ -1,10 +1,14 @@
-# Actividad 004 - Landing Page
+# Actividad 008 - Landing Page con Bootstrap
 
 *INSTRUCCIONES*:
 
-- Para poder realizar este actividad debes haber realizado los cursos previos junto con haber visto los videos online correspondientes a la experiencia 1, 2.
+- Para poder realizar este actividad debes haber realizado los cursos previos junto con haber visto los videos online correspondientes a la experiencia 4.
 
-- Dado el layout de la figura que se presenta a continuación, realizar la construcción del HTML y CSS, utilizando los conceptos revisados en las actividades anteriores y seguir las instrucciones de manera local con sublime.
+- Refactorizar el layout diseñado en la actividad 4, aplicando las clases de Bootstrap y sus componentes.
+
+- Utilizar el sistema de grillas para hacer el sitio responsivo.
+
+- Utilizar el componente carousel con 3 imágenes.
 
 - Luego guarda los cambios y súbelos a Github Pages.
 
