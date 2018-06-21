@@ -31,6 +31,7 @@ header p {
 }
 
 .navbar {
+    border: none;
     background: rgba(0, 0, 0, 0);
 }
 
@@ -67,19 +68,25 @@ section.informacion .btn {
     margin: 5px 0;
 }
 /* SUSCRIBETE *****************************************************************/
-address .container {
+address.container {
     text-align: left;
 }
 
 address input.email {
+    float: left;
+    box-sizing: border-box;
     padding: 6px;
     border: solid 1px #CCC;
     border-radius: 4px;
 }
 
 address input.btn {
-    background-color: #FFF;
+    float: left;
+
+    margin-left: 10px;
     border: solid 1px #CCC;
+
+    background-color: #FFF;
     color: #333;
 }
 
@@ -98,8 +105,15 @@ footer h3 {
 }
 
 /* MEDIA **********************************************************************/
-@media (min-width: 779px) and (max-width: 992px) {
+@media (min-width: 0px) and (max-width: 1200px) {
     .container {
         padding: 50px 10%;
+    }
+
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    div.suscribete {
+        margin-top: 30px;
     }
 }
