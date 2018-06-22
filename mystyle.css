@@ -90,6 +90,13 @@ address input.btn {
     color: #333;
 }
 
+/* CAROUSEL *******************************************************************/
+section.carousel div.container {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 /* FOOTER *********************************************************************/
 footer {
     margin-bottom: 0;
